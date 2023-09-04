@@ -169,6 +169,6 @@ async function fetchSearchWeatherInfo(city) {
       renderWeatherInfo(data);
   }
   catch(err) {
-      //hW
+      console.log("nhi hua");
   }
 } 
